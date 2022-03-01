@@ -1,0 +1,376 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Manrope', sans-serif, Arial, Helvetica, sans-serif;
+  background: url(../assets/blur-1.png) left bottom no-repeat, url(../assets/blur-2.png) right top repeat;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+  background-color: #000;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+header nav ul{
+  display: flex;
+  display: flex;
+  justify-content: space-between
+}
+
+.insideHeader{
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  margin-top: 50px;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav ul li a{
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
+.itemMenu{
+  text-decoration: none;
+}
+
+.buttonGetMyCoffe{
+  width: 172px;
+  height: 37px;
+  background-color: transparent;
+  border: #8257E5 solid 1px;
+  border-radius: 10px;
+}
+
+.buttonText{
+  color: #FFF;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.bigTitle{
+  font-size: 8.0rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.bigTitle2{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title2{
+  color: black;
+  text-shadow:
+  -1px -1px 0 #8257E5,
+  0px -1px 0 #8257E5,
+  1px -1px 0 #8257E5,
+  -1px 1px 0 #8257E5,
+  0px 1px 0 #8257E5,
+  1px 1px 0 #8257E5;
+}
+
+.botBody{
+  display: flex;
+  justify-content: center;
+}
+
+.bottomImg{
+  margin-top: 40px;
+  position:fixed;
+  bottom:0px;
+}
+
+.menu-section{
+  display: none;
+}
+
+.midBodyMobile{
+  display: none;
+}
+
+.buttonGetMyCoffe2{
+  display: none;
+}
+
+.midBody2{
+  display: none;
+}
+
+.menu-mobile{
+  display: none;
+}
+
+@media (max-width: 1026px) {
+  html{
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  html{
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 692px) {
+
+  body{
+    background: url(../assets/blur-mobile.png);
+    background-size: cover;
+    background-color: #000;
+  }
+  
+
+  .menu-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+    width: 100%;
+  }
+  
+  .topMobile{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+  }
+  
+  .insideHeader{
+    display: none;
+  }
+
+  .buttonGetMyCoffe{
+    display: none;
+  }
+
+  .logoTop{
+    display: none;
+  }
+
+  .midBody{
+    display: none;
+  }
+
+  .botBody{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .botBody img{
+    width: 100%;
+  }
+  .midBody2{
+    display: flex;
+  }
+  
+.bigTitle4{
+  font-size: 5.0rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 95px;
+  z-index: 2;
+}
+
+.bigTitle5{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title5{
+  color: black;
+  text-shadow:
+  -1px -1px 0 #8257E5,
+  0px -1px 0 #8257E5,
+  1px -1px 0 #8257E5,
+  -1px 1px 0 #8257E5,
+  0px 1px 0 #8257E5,
+  1px 1px 0 #8257E5;
+}
+
+
+  .midBodyMobile{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin-top: 88.5px;
+  }
+
+  .title3{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-weight: 400;
+    width: 90%;
+    text-align: center;
+  }
+
+  .midBodyMobile2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+  }
+
+  .buttonGetMyCoffe2{
+    display: flex;
+    width: 172px;
+    height: 37px;
+    background-color: transparent;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: #8257E5 solid 1px;
+  }
+
+  .menu-section img{
+    margin-left: 10px;
+  }
+
+  .one,
+  .two {
+    background-color: #8257E5;
+    height: 4px;
+    width: 100%;
+    margin: 4px auto;
+    transition-duration: 0.3s;
+  }
+  .two {
+    width: 60%;
+    float:right
+  }
+
+  .menu-toggle{
+    width: 40px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  /*---------------------------fullscreen menu */
+
+  .menu-section.on .menu-toggle .one{
+    transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .menu-section.on .menu-toggle .two{
+    width: 100%;
+    transform: rotate(-45deg) translate(1px, -2px);
+  }
+
+  .menu-section.on{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+    width: 100%;
+  }
+
+  .menu-section.on{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-section.on .menu-mobile{
+    height: 90vh;
+    width: 100%;
+    background-color: #000;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .menu-section.on .menu-mobile ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .menu-section.on .menu-mobile ul li a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 2.4rem;
+    
+  }
+
+  .menu-section.on .menu-mobile ul li{
+    margin-left: 0px;
+    padding-left: 30px;
+    width: 100%;
+    height: 56px;
+    color: #A8A8B3;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-top:#29292E solid 1px;
+    border-bottom:#29292E solid 1px;
+  }
+
+  .menu-section.on .menu-mobile ul li:hover{
+    border-left:#8257E5 solid 5px;
+    color: #E1E1E6;
+    padding-left: 25px;
+  } 
+
+  /*-------------------------fullscreen menu */
+
+}
